@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+       <!-- header -->
+    <header class="header">
+    <a href="#"><img src="./IMAGES/logo.jpg" alt="logo" width="90" height="90"></a>
+    
+    <div class="navMenu" id="navMenu">
+    <i class="bx bx-x" onclick="closeMenu()"></i>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+    <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+    
+   <!-- sub-header session -->
+    
+<section class="sub-header" id="sub-header">
+<h1>Recent <span>Projects</span></h1>
+</section>
+    
+  <!-- portfolio Session -->
+   
+<section class="portfolio" id="portfolio">
+<div class="sub-text-title">
+<h2>Frontend Development <span>Projects</span></h2>
+</div>
+<div class="portfolio-content">
+<div class="row">
+<img src="./IMAGES/FD1.jpg" alt="FD Project 1">
+<div class="cover">
+<h5>Visual Designs</h5>
+<p>Built a responsive and modern website using HTML, CSS, and JavaScript with a focus on performance and user experience.</p>
+<a href="#"><i class='bx bx-link-external'></i></a>
+</div>
+</div>
+
+<div class="row">
+<img src="./IMAGES/FD4.jpg" alt="FD Project 2">
+<div class="cover">
+<h5>Visual Designs</h5>
+<p>Developed an interactive web interface featuring smooth animations, mobile responsiveness, and clean code architecture.</p>
+<a href="#"><i class='bx bx-link-external'></i></a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="portfolio" id="portfolio">
+<div class="sub-text-title">
+<h2>UI/UX Design <span>Projects</span></h2>
+</div>
+<div class="portfolio-content">
+<div class="row">
+<img src="./IMAGES/FD2.jpg" alt="UI UX Project 1">
+<div class="cover">
+<h5>Visual Designs</h5>
+<p>Designed a user-centered interface with intuitive navigation, clear visual hierarchy, and seamless user flows.</p>
+<a href="#"><i class='bx bx-link-external'></i></a>
+</div>
+</div>
+
+<div class="row">
+<img src="./IMAGES/FD5.jpg" alt="UI/UX Project 2">
+<div class="cover">
+<h5>Visual Designs</h5>
+<p>Created wireframes, prototypes, and high-fidelity designs focused on accessibility, usability, and engagement.</p>
+<a href="#"><i class='bx bx-link-external'></i></a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="portfolio" id="portfolio">
+<div class="sub-text-title">
+<h2>Graphics Design <span>Projects</span></h2>
+</div>
+<div class="portfolio-content">
+<div class="row">
+<img src="./IMAGES/FD3.jpg" alt="Graphics Design Project 1">
+<div class="cover">
+<h5>Visual Designs</h5>
+<p>Crafted visually compelling marketing materials that strengthen brand identity and capture audience attention.</p>
+<a href="#"><i class='bx bx-link-external'></i></a>
+</div>
+</div>
+
+<div class="row">
+<img src="./IMAGES/FD6.jpg" alt="Graphics Project 2">
+<div class="cover">
+<h5>Visual Designs</h5>
+<p>Designed creative promotional graphics using modern typography, color theory, and professional layout techniques.</p>
+<a href="#"><i class='bx bx-link-external'></i></a>
+</div>
+</div>
+</div>
+</section>
+  
+     <!-- FOOTER -->
+       
+<footer class="footer">
+<div class="attribution">
+<p>ATM DIGITAL | 2026. All Rights Reserved.</p>
+</div>
+    
+<div class="move-up">
+<a href="portfolio.html"><i class='bx bx-up-arrow-alt'></i></a>
+</div>
+</footer>
+
+  <!-- JS for toggle Menu -->
+
+<script>
+var navMenu = document.getElementById("navMenu");
+
+function openMenu() {
+navMenu.style.right = "0";
+}
+
+function closeMenu() {
+navMenu.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+       <!-- header -->
+    <header class="header">
+    <a href="#"><img src="./IMAGES/logo.jpg" alt="logo" width="90" height="90"></a>
+    
+    <div class="navMenu" id="navMenu">
+    <i class="bx bx-x" onclick="closeMenu()"></i>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </div>
+    <i class="bx bx-menu" onclick="openMenu()"></i>
+    </header>
+    
+   <!-- sub-header session -->
+    
+<section class="sub-header" id="sub-header">
+<h1>About <span>Me</span></h1>
+</section>
+    
+     <!-- about session -->
+   <div class="about-page">
+    <section class="about" id="about">
+    <div class="about-img">
+    <img src="./IMAGES/about.jpg" alt ="">
+    </div>
+    <div class="about-text">  
+<h4><span>I'm a</span> Design Technologist</h4>
+<p>who combines creativity with technology to create meaningful digital experiences. With expertise in Frontend Development, UI/UX Design, and Graphics Design, I transform ideas into modern, responsive, and user-centered solutions.<br><br> I believe great design goes beyond aesthetics.It solves problems, enhances user experiences, and helps brands connect with their audience.Whether designing intuitive interfaces, building responsive websites, or creating compelling visual identities, I approach every project with creativity, attention to detail, and a commitment to excellence.<br><br> My goal is to deliver impactful digital solutions that not only look great but also create lasting value for clients and users.</p>
+  <a href="https://wa.me/2349066070834" class="btn">Let's talk</a>
+  </div>
+  </section>
+  </div>
+  
+  <section class="others" id="others">
+  <div class ="sub-text-title">
+<h2>Why <span>Me?</span></h2>
+  </div>
+  
+  <div class="abouts-img">
+  <img src="./IMAGES/brand-id.png" alt="ATM Digital Logo">
+<span class="circle-spin"></span>
+    <span class="abouts-ring"></span>
+</div>
+  
+  <div class="others-text">
+  <h3><span>As</span> a Design Technologist & a Web Development Trainer</h3>
+<p>
+<span class="grd">- </span>I combine creativity and technology to build modern, user-friendly digital solutions that help brands stand out.<br><br>
+
+<span class="Uix">- </span>I continuously explore new technologies, and development practices to create modern, innovative, and future-ready digital solutions.<br><br>
+<span class="Fed">- </span>From design to development, I focus on clean visuals, responsive layouts, and high-quality results.
+</p>
+     <div class="hmbtn">
+     <div>
+<a href="https://wa.me/2349066070834" class="btn">Hire Me</a>
+            </div>
+            </div>
+        </div>
+    </section>
+           
+      <!-- FOOTER -->
+       
+<footer class="footer">
+<div class="attribution">
+<p>ATM DIGITAL | 2026. All Rights Reserved.</p>
+</div>
+    
+<div class="move-up">
+<a href="about.html"><i class='bx bx-up-arrow-alt'></i></a>
+</div>
+</footer>
+
+  <!-- JS for toggle Menu -->
+
+<script>
+var navMenu = document.getElementById("navMenu");
+
+function openMenu() {
+navMenu.style.right = "0";
+}
+
+function closeMenu() {
+navMenu.style.right = "-200px";
+}
+</script>
+
+</body>
+</html>
