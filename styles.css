@@ -610,7 +610,10 @@ flex-direction:column !important;
     }
     .home h1 { font-size: 44px; } 
    .services-content { grid-template-columns: 1fr 1fr; }
-}
+   .about { grid-template-columns: 1fr 1fr; }
+   .portfolio-content { grid-template-columns: 1fr 1fr; }
+   .contact { grid-template-columns: 1fr 1fr; }
+  }
 
 
 @media (min-width: 1200px) {
