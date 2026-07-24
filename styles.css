@@ -609,6 +609,7 @@ flex-direction:column !important;
         gap: 40px;
     }
     .home h1 { font-size: 44px; } 
+   .services-content { grid-template-columns: 1fr 1fr; }
 }
 
 
@@ -616,6 +617,7 @@ flex-direction:column !important;
     header, .home { padding: 20px 12%; }
     .home h1 { font-size: 60px; }
     .navMenu ul { gap: 40px; } 
+    .services-content { grid-template-columns: 1fr 1fr 1fr; }
 }
 
      /* webpages */
